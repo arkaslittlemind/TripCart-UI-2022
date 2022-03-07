@@ -44,7 +44,7 @@ new Glide('.glide2', config2).mount();
 let config3 = {
     type: 'carousel',
     perView: 2,
-    // autoplay:2500,
+    autoplay:2500,
     animationDuration: 600,
     animationTimingFunc: 'linear',
     breakpoints: {
