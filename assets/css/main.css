@@ -27,7 +27,7 @@
   }
   
   form.example button:hover {
-    background: #0b7dda;
+    background: #0b7dda
   }
   
   /* Clear floats */
@@ -1705,12 +1705,7 @@ a, button{
 }
 /*---=== RESPONSIVE ===---*/
 /*---=== FOOTER NEW ===---*/
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -2069,7 +2064,7 @@ a, button{
   mark,
   .mark {
     padding: 0.2em;
-    background-color: #fcf8e3; }
+    background-color: #0b7dda; }
   
   .list-unstyled {
     padding-left: 0;
