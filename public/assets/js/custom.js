@@ -1,13 +1,13 @@
-const config = {
-   type: 'carousel',
-   perView: 3,
- 	 breakpoints:{
- 	  600: { perView: 1 },
- 	  800: { perView: 2 },
- 	  1200: { perView: 3 }
- 	}
- }
- new Glide('.glide', config).mount();
+//const config = {
+  // type: 'carousel',
+  // perView: 3,
+ 	// breakpoints:{
+ 	 // 600: { perView: 1 },
+ 	 // 800: { perView: 2 },
+ 	//  1200: { perView: 3 }
+ //	}
+ //}
+ //new Glide('.glide', config).mount();
 
 let config1 = {
     type: 'carousel',
