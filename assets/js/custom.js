@@ -1,15 +1,15 @@
- const config = {
-   type: 'carousel',
-   perView: 3,
- 	 breakpoints:{
- 	  600: { perView: 1 },
- 	  800: { perView: 2 },
- 	  1200: { perView: 3 }
- 	}
- }
- new Glide('.glide', config).mount();
+//const config = {
+  // type: 'carousel',
+  // perView: 3,
+ 	// breakpoints:{
+ 	 // 600: { perView: 1 },
+ 	 // 800: { perView: 2 },
+ 	//  1200: { perView: 3 }
+ //	}
+ //}
+ //new Glide('.glide', config).mount();
 
-let config1 = {
+ let config1 = {
     type: 'carousel',
     perView: 3,
     breakpoints:{
@@ -44,7 +44,7 @@ new Glide('.glide2', config2).mount();
 let config3 = {
     type: 'carousel',
     perView: 2,
-    autoplay:2500,
+    // autoplay:2500,
     animationDuration: 600,
     animationTimingFunc: 'linear',
     breakpoints: {
