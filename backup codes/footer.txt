@@ -1,0 +1,83 @@
+	<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Footer 06</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<link rel="stylesheet" href="assets/css/footer.css">
+  </head>
+  <body>
+		<section class="ftco-section">
+			<div class="container">
+				
+			</div>
+		</section>
+		<footer class="footer-06">
+			<div class="container">
+				<div class="row align-items-center align-items-stretch mb-5">
+					<div class="col-md-4 py-4 py-md-5 aside-stretch d-flex align-items-center">
+						<div class="w-100">
+							<span class="subheading">Subscribe to our</span>
+							<h3 class="heading-section">Newsletter</h3>
+						</div>
+					</div>
+					<div class="col-md-8 py-4 py-md-5 d-flex align-items-center pl-md-5 aside-stretch-right">
+						<form action="#" class="subscribe-form w-100">
+              <div class="form-group d-flex">
+                <input type="text" class="form-control rounded-left" placeholder="Enter email address">
+                <button type="submit" class="form-control submit"><span>Submit</span></button>
+              </div>
+            </form>
+					</div>
+				</div>
+				<div class="row pt-4">
+					<div class="col-md-3 col-lg-6 order-md-last">
+						<div class="row justify-content-end">
+							<div class="col-md-12 col-lg-9 text-md-right mb-md-0 mb-4">
+								<h2 class="footer-heading"><a href="#" class="logo"><a href="https://www.trip-cart.com/" class="logo">
+									<img src="assets/img/Logo type 1-01.png" alt="logo">
+								</a></h2>
+								<p class="copyright">
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> TripCart All rights reserved 
+							</div>
+						</div>
+					</div>
+					<div class="col-md-9 col-lg-6">
+						<div class="row">
+							<div class="col-md-4 mb-md-0 mb-4">
+								<h2 class="footer-heading">About Us</h2>
+								<ul class="list-unstyled">
+					<li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Careers</a></li>
+		            <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Testimonials</a></li>
+		            <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Media</a></li>
+		            <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Blog</a></li>
+		            </ul>
+							</div>
+							<div class="col-md-4 mb-md-0 mb-4">
+								<h2 class="footer-heading">Experiences</h2>
+								<ul class="list-unstyled">
+		              <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Honeymoon</a></li>
+		              <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Beaches</a></li>
+		              <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Cruises</a></li>
+					  <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Rentals</a></li>
+					  <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Adventure</a></li>
+		            </ul>
+							</div>
+							<div class="col-md-4 mb-md-0 mb-4">
+								<h2 class="footer-heading">Policies</h2>
+								<ul class="list-unstyled">
+		              <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Terms & Conditions</a></li>
+		              <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Privacy Policy</a></li>
+		              <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>FAQ</a></li>
+					  <li><a href="#" class="py-1 d-block"><span class="ion-ios-checkmark-circle-outline mr-2"></span>Cancellations</a></li>
+		            </ul>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
