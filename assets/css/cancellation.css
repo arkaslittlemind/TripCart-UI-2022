@@ -18,6 +18,14 @@ body{
 }
 
 .first-header img{
+    
+    box-sizing: border-box;
+    display: block;
+    line-height: 23.9667px;
+    position: static;
+    z-index: auto;
+
+
     height: 70px;
     width: 70px;
     border: 1px solid red;
