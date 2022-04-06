@@ -1,0 +1,137 @@
+html,body{
+    padding:0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.header-container p{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.header-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    color: rgb(119,119,119);
+    padding-left:  73px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.nav img{
+    width: 15px;
+    height: 15px;
+}
+
+.main-container{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.first-container {
+    padding: 7px;
+    border-radius: 5px;
+   
+}
+
+.first-container p{
+    color: rgb(119,119,119);
+}
+
+.first-container a{
+    color: rgb(24,149,179);
+}
+.third-container{
+    border: 1px solid rgb(211, 207, 207);
+    display: flex;
+    min-height: 294px;
+    
+}
+.third-container img{
+    height: 294 px;
+    width:250px;
+}
+
+.third-container .child1{
+    width: 650px;
+}
+
+.third-container .child1 h3{
+    padding-left: 20px;
+    color: #0061DE;
+}
+.third-container .child1 span{
+    padding-left: 20px;
+    color: rgb(119,119,119);
+}
+
+.third-container .child1 ul li {
+    color:rgb(44,47,66);
+}
+
+
+.third-container .child2 h3{
+    color:rgb(136,136,136)
+}
+
+.third-container .child2 ul li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: rgb(136, 136, 136);
+    margin-top: 5px;
+}
+.third-container .child2 span{
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.third-container .child2 p{
+    position: relative;
+    top: -18px;
+    color: rgb(44, 47, 66);
+    padding: 10px;
+}
+
+.third-container .child2 a{
+    border: 1px solid rgb(0,198,132);
+    background-color: rgb(0,198,132);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    position: relative;
+    border-radius: 5px;
+    top: -20px;
+    }
+
+.third-container .child2 ul li:before {
+        content: '✓';
+        color:rgb(43, 206, 43)
+    }
+
+.third-container .child2 ul li:last-child:before{
+        content: 'x ';
+        color: red;
+    }
+.third-container:hover{
+    box-shadow: 0 0 30px rgb(173, 171, 171);
+}
