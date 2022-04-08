@@ -307,44 +307,47 @@
 
 /*---=== HEADER END ===---*/
 
-html,body{
-    padding:0;
+html,
+body {
+    padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
-.header-container p{
+
+.header-container p {
     border: 1px solid black;
     padding: 5px;
     border-radius: 5px;
 }
 
 
-.header-container a{
+.header-container a {
     text-decoration: none;
     color: black;
 }
 
-.nav{
-    color: rgb(119,119,119);
-    padding-left:  73px;
+.nav {
+    color: rgb(119, 119, 119);
+    padding-left: 73px;
     display: flex;
     align-items: center;
     gap: 10px;
-    
+
 }
-.nav img{
+
+.nav img {
     width: 15px;
     height: 15px;
 }
 
-.main-container{
+.main-container {
     padding: 70px;
     display: flex;
     flex-direction: column;
@@ -357,44 +360,47 @@ html,body{
 
 }
 
-.first-container p{
-    color: rgb(119,119,119);
+.first-container p {
+    color: rgb(119, 119, 119);
 }
 
-.first-container a{
-    color: rgb(24,149,179);
+.first-container a {
+    color: rgb(24, 149, 179);
 }
-.third-container{
+
+.third-container {
     border: 1px solid rgb(211, 207, 207);
     display: flex;
     height: 320px;
-    
-}
-.third-container img{
-    height: 294 px;
-    width:250px;
+
 }
 
-.third-container .child1{
+.third-container img {
+    height: 294 px;
+    width: 250px;
+}
+
+.third-container .child1 {
     width: 650px;
 }
 
-.third-container .child1 h3{
+.third-container .child1 h3 {
     padding-left: 20px;
     color: #0061DE;
 }
-.third-container .child1 span{
+
+.third-container .child1 span {
     padding-left: 20px;
-    color: rgb(119,119,119);
+    color: rgb(119, 119, 119);
 }
 
 .third-container .child1 ul li {
-    color:rgb(44,47,66);
+    color: rgb(44, 47, 66);
 }
 
 
-.third-container .child2 h3{
-    color:rgb(136,136,136)
+.third-container .child2 h3 {
+    color: rgb(136, 136, 136)
 }
 
 .third-container .child2 ul li {
@@ -405,22 +411,23 @@ html,body{
     color: rgb(136, 136, 136);
     margin-top: 5px;
 }
-.third-container .child2 span{
+
+.third-container .child2 span {
     color: rgb(153, 153, 153);
     font-weight: 600;
     line-height: 18px;
 }
 
-.third-container .child2 p{
+.third-container .child2 p {
     position: relative;
     top: -18px;
     color: rgb(44, 47, 66);
     padding: 10px;
 }
 
-.third-container .child2 a{
-    border: 1px solid rgb(0,198,132);
-    background-color: rgb(0,198,132);
+.third-container .child2 a {
+    border: 1px solid rgb(0, 198, 132);
+    background-color: rgb(0, 198, 132);
     color: white;
     padding-left: 50px;
     padding-right: 50px;
@@ -430,18 +437,19 @@ html,body{
     position: relative;
     border-radius: 5px;
     top: -20px;
-    }
+}
 
 .third-container .child2 ul li:before {
-        content: '✓';
-        color:rgb(43, 206, 43)
-    }
+    content: '✓';
+    color: rgb(43, 206, 43)
+}
 
-.third-container .child2 ul li:last-child:before{
-        content: 'x ';
-        color: red;
-      }
-.third-container:hover{
+.third-container .child2 ul li:last-child:before {
+    content: 'x ';
+    color: red;
+}
+
+.third-container:hover {
     box-shadow: 0 0 30px rgb(173, 171, 171);
 }
 
