@@ -304,9 +304,43 @@
     color: #AFAEB4;
     margin-bottom: 0;
 }
-
 /*---=== HEADER END ===---*/
 
+/*---=== RATINGS BANNER START ===---*/
+
+
+/*---=== RATINGS BANNER END ===---*/
+
+
+/*---=== BREAD CRUMBS START ===---*/
+
+/*---=== BREAD CRUMBS END ===---*/
+
+
+/*---=== SLIDER START ===---*/
+h6{
+    position: relative;
+    left: 100px;
+}
+
+.photo-component{
+    display: flex;
+    gap: 20px;
+    width: 78.3vw;
+    position: relative;
+    overflow-x: scroll;
+    left: 100px;
+}
+
+#cities-img{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+}
+/*---=== SLIDER END ===---*/
+
+/*---=== DESTINATION CONTAINER START ===---*/
 html,
 body {
     padding: 0;
@@ -382,10 +416,12 @@ body {
 
 .third-container .child1 {
     width: 650px;
+    padding-left: 20px;
+    padding-top: 30px;
 }
 
-.third-container .child1 h3 {
-    padding-left: 20px;
+.third-container .child1 h5 {
+    padding-left: 5px;
     color: #0061DE;
 }
 
@@ -398,9 +434,14 @@ body {
     color: rgb(44, 47, 66);
 }
 
+.third-container .child2{
+    padding-left: -200px;
+}
 
-.third-container .child2 h5 {
-    color: rgb(136, 136, 136)
+
+.third-container .child2 h6 {
+    color: rgb(136, 136, 136);
+    padding-top: 30px;
 }
 
 .third-container .child2 ul li {
@@ -410,6 +451,7 @@ body {
     letter-spacing: -0.02em;
     color: rgb(136, 136, 136);
     margin-top: 5px;
+
 }
 
 .third-container .child2 span {
@@ -424,6 +466,8 @@ body {
     color: rgb(44, 47, 66);
     padding: 10px;
 }
+
+
 
 .third-container .child2 a {
     border: 1px solid rgb(0, 198, 132);
@@ -452,6 +496,7 @@ body {
 .third-container:hover {
     box-shadow: 0 0 30px rgb(173, 171, 171);
 }
+/*---=== DESTINATION CONTAINER END ===---*/
 
 /*---=== FOOTER  START ===---*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
