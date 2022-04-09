@@ -435,13 +435,16 @@ body {
 }
 
 .third-container .child2{
-    padding-left: -200px;
+    width: 250px;
+    padding-left: 20px;
+    
 }
 
 
 .third-container .child2 h6 {
     color: rgb(136, 136, 136);
     padding-top: 30px;
+    
 }
 
 .third-container .child2 ul li {
@@ -465,6 +468,7 @@ body {
     top: -18px;
     color: rgb(44, 47, 66);
     padding: 10px;
+    font-weight: bolder;
 }
 
 
