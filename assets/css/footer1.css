@@ -252,3 +252,10 @@ footer .bottom-details .bottom_text{
   left: 72.5%;
   top: -50px;
 }
+
+.logo-details{
+  width: 20%;
+  height: 50px;
+  position: relative;
+  left: -1%;
+}
